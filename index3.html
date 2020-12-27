@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Position Static Example</title>
+  <style>
+  .box { 
+    display: inline-block; 
+    background: green; 
+    width: 100px; 
+    height: 100px; 
+    /*color: white;
+    padding: 0px;*/
+    margin: 100px 0px 0px 100px;
+  }
+  #one{
+  	position: absolute;
+  	/*margin-top:0px;*/
+  	height: 200px;
+  	background-color: #09A633;
+
+  }
+  #two { 
+  	position: relative;
+     width: 200px;
+     height: 100px;
+  /*   right: 106px;*/
+     background-color:#FFDE00;
+     margin-left: 200px;
+  
+  }  
+  #three{
+  		/*margin: 00px 0px 0px 100px;*/
+  		position: relative;
+  		top:100px;
+     width: 200px;
+     height: 100px;
+     right:410px;
+     background-color:#F13C2E;
+     margin-left: 205px;
+
+  } 
+  </style>
+</head>
+<body>
+ 
+  <div class="box" id="one">Benin</div>
+  <div class="box" id="two"></div>
+  <div class="box" id="three"></div>
+ 
+</body>
+</html>
